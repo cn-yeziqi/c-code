@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int s;
+	double a, b,S;
+	double c = 2;
+	printf("请输入a=");
+	scanf("%lf", &a);
+	printf("请输入b=");
+	scanf("%lf", &b);
+	S = a + b;
+	s = pow(a, c) + (b, c);//a的平方加b的平方
+	if (s > 100)
+		printf("百位的数 %d\n", s / 100 % 10);
+	else
+		printf("两数之和S=%lf\n", S);
+	return 0;
+}
